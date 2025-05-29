@@ -30,6 +30,7 @@ public class Car extends CarFactory {
     }
     public Car() {}
 
+
 //    public static void main(String[] args) {
 //
 //        Car ford = new Car(13, 115, 50000000, 47, "red");
@@ -94,7 +95,7 @@ public class Car extends CarFactory {
     public String getColor() {
         return color;
     }
-    public boolean isStarted() {
+    public boolean getIsStarted() {
         return isStarted;
     }
     public int getTransmission() {

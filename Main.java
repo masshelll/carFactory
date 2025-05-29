@@ -7,5 +7,8 @@ public class Main {
         Mark2.startTheCar();
         Mark2.flashTheHeadlights();
         Mark2.getInfo();
+        Car sportMark2 = new SportMode(Mark2);
+        sportMark2.startTheCar();
+        ((SportMode)sportMark2).activate();
         }
     }
